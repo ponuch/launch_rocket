@@ -10,10 +10,10 @@ var Qp = Qc / (2 * t);
 var nna = Qp / qna;
 Console.WriteLine(Convert.ToInt32(nna));
 
-// var Qt = at * Qp;
-// var nt = Qt / qt;
-// Console.WriteLine(Convert.ToInt32(nt));
+var Qt = at * Qp;
+var nt = Qt / qt;
+Console.WriteLine(Convert.ToInt32(nt));
 
 // var Qf = (1 - at) * Qp;
 // var nk = Qf / qk;
-// Console.WriteLine(Convert.ToInt32(nt));
+// Console.WriteLine(Convert.ToInt32(nk));
