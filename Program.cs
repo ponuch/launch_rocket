@@ -14,6 +14,10 @@ var Qt = at * Qp;
 var nt = Qt / qt;
 Console.WriteLine(Convert.ToInt32(nt));
 
-// var Qf = (1 - at) * Qp;
-// var nk = Qf / qk;
-// Console.WriteLine(Convert.ToInt32(nk));
+
+
+var Qf = (1 - at) * Qp;
+var nk = Qf / qk;
+Console.WriteLine(Convert.ToInt32(nk));
+
+Console.ReadLine();
